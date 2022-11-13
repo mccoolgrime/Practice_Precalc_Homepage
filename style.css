@@ -102,7 +102,26 @@ button {
 }
 .quote {
     background-color: #E5E7EB;
-    flex: 1;
+    flex: auto;
+    padding: 25px 175px 25px 175px; 
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+    align-items: center;
+}
+.moses {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #1F2937
+}
+
+.attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .action {
