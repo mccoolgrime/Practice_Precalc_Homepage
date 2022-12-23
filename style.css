@@ -58,7 +58,15 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 8px; 
-    max-width: 101px;
+    max-width: 120px;
+    white-space: nowrap;
+    font-weight: bold;
+    border-style: solid;
+   
+}
+
+.firstbutton {
+    border: none;
 }
 
 .media {
@@ -127,11 +135,23 @@ button {
 
 .action {
     background-color: #3882F6;
+    color: #F9FAF8;
     flex: 1;
-    margin: 20px;
+    margin: 75px 100px 75px 100px;
     border-radius: 25px;
     display: flex;
     justify-content: space-around;
+    padding: 20px 75px 20px 75px; 
+}
+
+.directions {
+    padding-right: 20px;
+    margin-top: -16px;
+}
+
+.urgent {
+    font-size: larger;
+    font-weight: bold;
 }
 
 .footer {
@@ -140,5 +160,10 @@ button {
 
 .action button {
     flex: 1;
+    border-color: #F9FAF8;
+    
+    height: 50px; 
+    align-self: center;
+    
 }
 
