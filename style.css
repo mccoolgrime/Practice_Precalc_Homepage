@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -35,6 +35,7 @@ h1 {
 .container1 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: #E5E7EB;
     gap: 36px; 
 }
@@ -127,8 +128,17 @@ button {
 .action {
     background-color: #3882F6;
     flex: 1;
+    margin: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer {
     background-color: #1F2937;
 }
+
+.action button {
+    flex: 1;
+}
+
